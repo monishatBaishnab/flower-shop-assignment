@@ -51,7 +51,7 @@ p {
     margin: 0 auto;
 }
 
-section {
+section,footer {
     padding: 40px 40px;
 }
 
@@ -242,3 +242,16 @@ section {
     outline: 0;
     border: 0;
 }   
+
+/* footer section style start */
+
+footer{
+    background: rgba(39, 39, 39, 0.05);
+}
+footer span{
+    color: #E55473;
+}
+footer > p{
+    text-align: center;
+    color: rgba(39, 39, 39, 0.80);;
+}
