@@ -51,6 +51,10 @@ p {
     margin: 0 auto;
 }
 
+section {
+    padding: 40px 40px;
+}
+
 .section-title {
     max-width: 594px;
     margin: 0 auto;
@@ -70,6 +74,7 @@ p {
 .header {
     background: rgba(229, 84, 115, 0.10);
     padding: 60px 40px 0px;
+    margin-bottom: 40px;
 }
 
 .header main {
@@ -108,10 +113,6 @@ p {
 
 /* feature section style start */
 
-.feature {
-    padding: 80px 40px;
-}
-
 .feature main {
     display: flex;
     align-items: start;
@@ -135,10 +136,33 @@ p {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
 }
+
 .feature main article img {
     width: 80%;
     height: 80%;
 }
-.feature main article .title{
+
+.feature main article .title {
     margin-top: 20px;
-} 
+}
+
+
+/* services section style start */
+
+.services .container {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.services main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.services main article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+}
