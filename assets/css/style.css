@@ -196,3 +196,20 @@ section {
     align-items: center;
     justify-content: center;
 }
+
+/* social section style start */
+.social main{
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2%;
+    flex-wrap: wrap;
+}
+.social main .img{
+    width: 100%;
+    flex-basis: 23%;
+}
+.social main .img img{
+    width: 100%;
+    height: 100%;
+}
