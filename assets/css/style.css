@@ -166,3 +166,33 @@ section {
     justify-content: center;
     padding: 40px 0;
 }
+
+/* Hot section styles start */
+.hot{
+    background: rgba(229, 84, 115, 0.10);
+}
+.hot main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly ;
+}
+.hot .text{
+    flex-basis: 50%;
+    text-align: center;
+}
+.hot .text h3{
+    font-size: 30px;
+}
+.hot .text h3 span{
+    color: #E55473;
+}
+.hot .text p{
+    font-size: 16px;
+    margin: 20px 0;
+}
+.hot .img{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
