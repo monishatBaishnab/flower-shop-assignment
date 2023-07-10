@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+    padding: 10px 18px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+h1,h1,h3,h4,h5,h6{
+    color: #272727;;
+}
+p{
+    color: rgba(39, 39, 39, 0.60);
+}
